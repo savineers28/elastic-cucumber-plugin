@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6fff5699-7d6b-4af9-97fa-9c08345035f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USAGE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/kibana/cucumber_elastic_search_kibana_dashboard_1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/kibana/cucumber_elastic_search_kibana_dashboard_2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/kibana/cucumber_elastic_search_kibana_dashboard_3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/kibana/cucumber_elastic_search_kibana_dashboard_4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/cucelastic_plugin_icon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/architecture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/CucumberElasticSearchPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/constants/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/exceptions/CucElasticPluginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/exceptions/filesystem/FileCreationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/exceptions/filesystem/MissingFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/exceptions/properties/WrongOrMissingPropertyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/filesystem/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/filesystem/FileSystemManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/JsonPojoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/pojo/Argument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/pojo/DocString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/pojo/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/pojo/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/pojo/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/pojo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/pojo/ResultMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/pojo/Row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/pojo/Step.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/pojo/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/postprocessors/ElementPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/json/postprocessors/ReportPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/logging/CucElasticPluginLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/Feature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/FeatureSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/ReportDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/ResultCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/ResultSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/ScenarioSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/StepSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/TagSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/collections/AllFeaturesCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/collections/AllScenariosCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/collections/AllTagsCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/collections/ScenarioDetailsCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/pojos/collections/SummaryCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/properties/PropertyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/utils/CucElasticPluginReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/cucumber/elasticsearch/utils/CucElasticPluginUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/CucElasticPluginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/constants/StatusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/exceptions/CucElasticPluginExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/exceptions/filesystem/FileCreationExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/exceptions/filesystem/MissingFileExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/exceptions/properties/WrongOrMissingPropertyExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/files/FileIOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/files/FileSystemManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/json/JsonPojoConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/json/pojo/ElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/json/pojo/PojoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/json/pojo/ReportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/json/pojo/ResultMatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/json/pojo/ResultTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/json/postprocessors/ElementPostProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/json/postprocessors/ReportPostProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/logging/CluecumberLoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/properties/PropertyManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/elasticsearch/utils/ReportGeneratorTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1VHkyPaWX1yJngnahsLU6kLgCrq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="cucumber-elastic-connect-plugin [clean...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fff5699-7d6b-4af9-97fa-9c08345035f8" name="Default Changelist" comment="" />
+      <created>1576917662984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576917662984</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

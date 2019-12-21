@@ -1,0 +1,19 @@
+
+### Java ###
+# Compiled class file
+*.class
+
+# class path
+*.classpath
+
+# Project
+*.project
+
+# settings
+.settings
+
+# Package Files #
+*.jar
+
+### Maven ###
+target/
